@@ -1,0 +1,40 @@
+.Header {
+  background-color: #444;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main {
+  background-color: #999;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.SearchPokemon {
+  background-color: #fff;
+  height: 10%;
+  border: 1px solid black;
+}
+
+.Pokemon {
+  background-color: #fff;
+  height: 20%;
+  border: 1px solid black;
+  display: flex;
+
+}
+
+.TypesContainer {
+  background-color: #999;
+  height: 50%;
+  border: 1px solid black;
+}
+
+.PokemonsName {
+  height: 80%;
+  overflow-y: scroll;
+}
