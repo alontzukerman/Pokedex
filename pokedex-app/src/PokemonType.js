@@ -2,11 +2,12 @@ import React from 'react';
 
 function PokemonType (props) {
     return (
-        <li
+        <span
+            className="PokemonType"
             onClick={()=>props.onClick()}
         >
             {props.pokemonName}
-        </li>
+        </span>
     );
 }
 
