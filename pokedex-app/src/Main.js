@@ -16,6 +16,7 @@ function Main () {
     },[pokemonData]);
 
     async function GetPokemon (PokemonIDName) {
+        console.log(PokemonIDName);
         try {
             const { data } = await axios.get(`http://pokeapi.co/api/v2/pokemon/${PokemonIDName}`);
             setPokemonData(data);
