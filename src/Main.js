@@ -32,7 +32,7 @@ function Main () {
     return (
         <div className="Main">
             <SearchPokemon 
-                onClick={GetPokemon}
+                handleClick={GetPokemon}
             />
             { 
                 pokemonData !== undefined &&

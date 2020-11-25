@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
 
-function SearchPokemon ({onClick}) {
+function SearchPokemon ({handleClick}) {
     const [inputValue , setInputValue] = useState('');
-
-    const handleClick = (e) => {
-        e.stopPropagation();
-        onClick(inputValue);
-    }
     return (
         <div className="SearchPokemon">
             <input 
@@ -15,7 +10,8 @@ function SearchPokemon ({onClick}) {
                 placeholder="Search Pokemon"></input>
             <button 
                 className="Button"
-                onClick={(e)=>inputValue !== '' && handleClick(e)}
+                // onClick={(e)=>inputValue !== '' && onClick(inputValue)}
+                onPointerDown={(e)=>inputValue !== '' && handleClick(inputValue)}
             > 
                 Search 
             </button>
