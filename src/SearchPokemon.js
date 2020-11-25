@@ -6,14 +6,14 @@ function SearchPokemon ({onClick}) {
         <div className="SearchPokemon">
             <input 
                 className="Input"
-                onChange={(e)=>setInputValue(e.target.value)}
+                onChange={(e)=> onClick(e.target.value)  && setInputValue(e.target.value)}
                 placeholder="Search Pokemon"></input>
-            <button 
+            {/* <button 
                 className="Button"
                 onClick={(e)=>inputValue !== '' && onClick(inputValue)}
             > 
                 Search 
-            </button>
+            </button> */}
         </div>
     );
 }
