@@ -8,8 +8,7 @@ function SearchPokemon ({onClick}) {
         onClick(inputValue);
     }
     return (
-        <div className="SearchPokemon"
-            onClick={e=>e.stopPropagation()}>
+        <div className="SearchPokemon">
             <input 
                 className="Input"
                 onChange={(e)=> /* onClick(e.target.value)  && */ setInputValue(e.target.value)}
