@@ -19,7 +19,7 @@
 
 .Main {
   background: rgb(209, 209, 209) url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
-  height: 70%;
+  height: 80%;
   width: 80%;
   max-width: 800px;
   margin: auto;
@@ -97,6 +97,7 @@ img {
   width: 20vw;
   height: 5em;
   font-size: 0.5em;
+  cursor: pointer;
 }
 .Button:hover {
   border: 3px solid black;
@@ -104,7 +105,7 @@ img {
   color: #fff;
 }
 .PokemonsName {
-  height: 65%;
+  height: 55%;
   width: 60%;
   margin: auto;
   display: flex;
@@ -116,6 +117,7 @@ img {
   padding: 0.5em;
   margin: 0.5em;
   font-size: 0.7em;
+  cursor: pointer;
 }
 
 .PokemonType:hover {
