@@ -7,12 +7,10 @@ function SearchPokemon ({onClick}) {
             <input 
                 className="Input"
                 onChange={(e)=>setInputValue(e.target.value)}
-                className="Input" 
                 placeholder="Search Pokemon"></input>
             <button 
                 className="Button"
-                onClick={(e)=>inputValue !== '' && e.stopPropagation() && onClick(inputValue)}
-                className="Button"
+                onClick={(e)=>inputValue !== '' && onClick(inputValue)}
             > 
                 Search 
             </button>

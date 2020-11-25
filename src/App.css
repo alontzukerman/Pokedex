@@ -11,7 +11,7 @@
   background-image: url('https://wallpaperaccess.com/full/8621.jpg');
   background-position: center;
   background-size: 100%;
-  height: 10vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,12 +19,12 @@
 
 .Main {
   background: rgb(209, 209, 209) url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
-  height: 80%;
+  height: 70%;
   width: 80%;
   max-width: 800px;
   margin: auto;
-  margin-top: 8vh;
-  margin-bottom: 8vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -34,7 +34,7 @@
 }
 
 .Footer {
-  height: 10vh;
+  height: 15vh;
   background-image: url('https://i.imgur.com/DnSmsdU.jpg');
   background-size: 100%;
 }
@@ -95,7 +95,7 @@ img {
   border: 3px solid #999;
   border-radius: 5px;
   width: 20vw;
-  height: 6vh;
+  height: 5em;
   font-size: 0.5em;
 }
 .Button:hover {
