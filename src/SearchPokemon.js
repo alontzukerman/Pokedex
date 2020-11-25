@@ -11,7 +11,7 @@ function SearchPokemon ({onClick}) {
                 placeholder="Search Pokemon"></input>
             <button 
                 className="Button"
-                onClick={()=>inputValue !== '' && onClick(inputValue)}
+                onClick={(e)=>inputValue !== '' && e.stopPropagation() && onClick(inputValue)}
                 className="Button"
             > 
                 Search 
